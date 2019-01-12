@@ -1,3 +1,6 @@
+/* @import url("./font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600"); */
+
 /* Header and Footer
 -------------------------------------*/
 header {
@@ -97,6 +100,9 @@ header > p {
   position: absolute;
   left: 0;
   top: 0;
+
+  height: 100px;
+  width: 100px;
 }
 
 #nav ul {
@@ -147,6 +153,16 @@ header > p {
   color: #e27689;
 }
 
+img {
+  width: 80%;
+  height: 80%;
+  padding-right: 20px;
+}
+
+/* .image-jasmin {
+  height: 25%;
+  width: 25%;
+} */
 /* Footer */
 
 footer {
@@ -217,9 +233,9 @@ blockquote {
   font-style: italic;
 }
 
-p, ul, ol, dl, table {
+/* p, ul, ol, dl, table {
   margin-bottom: 2em;
-}
+} */
 
 br.clear {
   clear: both;
@@ -473,6 +489,7 @@ br.clear {
 
 .container {
   margin: 0 auto;
+  display: flex;
   max-width: 100%;
   width: 1400px;
 }
@@ -504,6 +521,9 @@ ul.icons a {
 .item {
   box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
   margin-bottom: 40px;
+
+  width: 300px;
+  height: 300px;
 }
 
 .item header {

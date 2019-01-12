@@ -1,3 +1,13 @@
+/* @import url("./font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600"); */
+
+.container {
+  margin: 0 auto;
+  display: flex;
+  max-width: 100%;
+  width: 1400px;
+}
+
 /*  Media queries
 ----------------------------*/
 
@@ -10,12 +20,18 @@
 		display: flex;
 		flex-wrap: wrap;
 		box-sizing: border-box;
-		align-items: stretch;
+    align-items: stretch;
+    /* flex-direction: row; */
 	}
 
 	.row > * {
 		box-sizing: border-box;
-	}
+  }
+  
+  div button {
+    display: flex;
+    justify-content: center;
+  }
 
 	.row.gtr-uniform > * > :last-child {
 		margin-bottom: 0;
@@ -284,6 +300,8 @@
     flex-wrap: wrap;
     box-sizing: border-box;
     align-items: stretch;
+    /* flex-direction: row; */
+
   }
 
   .row > * {
@@ -540,6 +558,8 @@
     flex-wrap: wrap;
     box-sizing: border-box;
     align-items: stretch;
+    /* flex-direction: row; */
+
   }
 
   .row > * {
@@ -854,6 +874,8 @@
     flex-wrap: wrap;
     box-sizing: border-box;
     align-items: stretch;
+    /* flex-direction: row; */
+
   }
 
   .row > * {
@@ -1283,6 +1305,8 @@
     flex-wrap: wrap;
     box-sizing: border-box;
     align-items: stretch;
+    /* flex-direction: row; */
+
   }
 
   .row > * {

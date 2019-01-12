@@ -1,3 +1,6 @@
+/* @import url("./font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600"); */
+
 /* Nav bars, side bars
 -------------------------------------*/
 
@@ -106,13 +109,22 @@ table tfoot {
 
 /*     Button
 -------------------------------------*/
+div {
+  /* clear: both; */
+  /* display: flex; */
+  /* margin: 0 auto; */
+  /* justify-content: center; */
+}
 input[type="button"],
 	input[type="submit"],
 	input[type="reset"],
 	button,
 	.button {
-		position: relative;
-		display: inline-block;
+    position: relative; 
+    display: inline-block;
+    /* display: flex; */
+    /* justify-content: center;  */
+
 		border-radius: 0.35em;
 		color: #fff !important;
 		text-decoration: none;

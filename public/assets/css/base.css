@@ -1,4 +1,4 @@
-@import url("font-awesome.min.css");
+@import url("./font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
 
 
@@ -14,12 +14,15 @@ html {
 
 body {
 	-webkit-text-size-adjust: none;
-	background: #fff;
+	/* background: #fff; */
+	background: whitesmoke;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 19pt;
 	font-weight: 300;
 	line-height: 1.75em;
 	color: #888;
+
+	/* display: flex; */
 }
 
 body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -47,6 +50,10 @@ input, textarea, select {
 	color: #888;
 }
 
+header h3 {
+	text-align: center;
+}
+
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 300;
 	color: #666;
@@ -62,11 +69,11 @@ h1 a strong, h2 a strong, h3 a strong, h4 a strong, h5 a strong, h6 a strong {
 	color: #333;
 }
 
-h2 {
-	font-size: 2em;
-	letter-spacing: -1px;
+/* 
+.main-title {
 	text-align: center;
-}
+	font-size: 50px;
+} */
 
 h2.alt {
 	color: #888;
@@ -76,8 +83,17 @@ h2.alt strong {
 	color: #666;
 }
 
+h2 {
+	/* font-size: 2em; */
+	font-size: 50px;
+	letter-spacing: -1px;
+	text-align: center;
+	color: gray;
+}
+
 h3 {
 	font-size: 1.5em;
+	text-align: center;
 }
 
 strong, b {
@@ -103,6 +119,10 @@ a {
 a:hover {
 	color: #E27689;
 	border-bottom-color: rgba(255, 255, 255, 0);
+}
+
+p, ul, ol, dl, table {
+  margin-bottom: 2em;
 }
 
 /*       Icons
