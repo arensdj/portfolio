@@ -1,6 +1,8 @@
 # portfolio
 Week 1 Porfolio project 301d42
 
+Bus clip art downloaded from clipartpanda.com
+
 Number and name of feature: __#1 Refactor the CSS_______________
 
 Estimate of time needed to complete: __1 hr___
