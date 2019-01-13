@@ -1,9 +1,14 @@
-@import url("./font-awesome.min.css");
+@import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
 
+/*
+	Prologue by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
 
-/* Fonts, background, colors
--------------------------------------*/
+/* Basic */
+
 html {
 	box-sizing: border-box;
 }
@@ -13,34 +18,24 @@ html {
 }
 
 body {
-	-webkit-text-size-adjust: none;
-	/* background: #fff; */
-	background: whitesmoke;
+	background: #fff;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 19pt;
 	font-weight: 300;
 	line-height: 1.75em;
 	color: #888;
-
-	/* display: flex; */
 }
 
-body.is-preload *, body.is-preload *:before, body.is-preload *:after {
-	-moz-animation: none !important;
-	-webkit-animation: none !important;
-	-ms-animation: none !important;
-	animation: none !important;
-	-moz-transition: none !important;
-	-webkit-transition: none !important;
-	-ms-transition: none !important;
-	transition: none !important;
-}
-
-/* The following not on index.html */
-/* mark {
-	background-color: transparent;
-	color: inherit;
-} */
+	body.is-preload *, body.is-preload *:before, body.is-preload *:after {
+		-moz-animation: none !important;
+		-webkit-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+		-moz-transition: none !important;
+		-webkit-transition: none !important;
+		-ms-transition: none !important;
+		transition: none !important;
+	}
 
 input, textarea, select {
 	font-family: 'Source Sans Pro', sans-serif;
@@ -48,10 +43,6 @@ input, textarea, select {
 	font-weight: 300;
 	line-height: 1.75em;
 	color: #888;
-}
-
-header h3 {
-	text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -65,35 +56,37 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 	text-decoration: none;
 }
 
-h1 a strong, h2 a strong, h3 a strong, h4 a strong, h5 a strong, h6 a strong {
-	color: #333;
-}
-
-/* 
-.main-title {
-	text-align: center;
-	font-size: 50px;
-} */
-
-h2.alt {
-	color: #888;
-}
-
-h2.alt strong {
-	color: #666;
-}
+	h1 a strong, h2 a strong, h3 a strong, h4 a strong, h5 a strong, h6 a strong {
+		color: #333;
+	}
 
 h2 {
-	/* font-size: 2em; */
-	font-size: 50px;
+	font-size: 2em;
 	letter-spacing: -1px;
-	text-align: center;
-	color: gray;
 }
+
+	h2.alt {
+		color: #888;
+	}
+
+		h2.alt strong {
+			color: #666;
+		}
 
 h3 {
 	font-size: 1.5em;
-	text-align: center;
+}
+
+header {
+	margin: 0 0 2em 0;
+}
+
+	header > p {
+		margin: 1em 0 0 0;
+	}
+
+footer {
+	margin: 2em 0 0 0;
 }
 
 strong, b {
@@ -116,34 +109,38 @@ a {
 	outline: 0;
 }
 
-a:hover {
-	color: #E27689;
-	border-bottom-color: rgba(255, 255, 255, 0);
+	a:hover {
+		color: #E27689;
+		border-bottom-color: rgba(255, 255, 255, 0);
+	}
+
+sub {
+	position: relative;
+	top: 0.5em;
+	font-size: 0.8em;
+}
+
+sup {
+	position: relative;
+	top: -0.5em;
+	font-size: 0.8em;
+}
+
+hr {
+	border: 0;
+	border-top: solid 1px #ddd;
+}
+
+blockquote {
+	border-left: solid 0.5em #ddd;
+	padding: 1em 0 1em 2em;
+	font-style: italic;
 }
 
 p, ul, ol, dl, table {
-  margin-bottom: 2em;
+	margin-bottom: 2em;
 }
 
-/*       Icons
--------------------------------*/
-.icon {
-  text-decoration: none;
+br.clear {
+	clear: both;
 }
-
-.icon:before {
-	display: inline-block;
-	font-family: FontAwesome;
-	font-size: 1.25em;
-	text-decoration: none;
-	font-style: normal;
-	font-weight: normal;
-	line-height: 1;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-}
-
-.icon > .label {
-	display: none;
-}
-
