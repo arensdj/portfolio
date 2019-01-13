@@ -1526,14 +1526,14 @@
   display: inline-block;
   border: 0;
 
-  height: 50%;
+  /* height: 40%; */
 }
 
   .image img {
     display: block;
     width: 100%;
 
-    /* width: 75%; */
+    /* width: 80%; */
     /* height: 20%; */
   }
 
