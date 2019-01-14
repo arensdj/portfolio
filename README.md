@@ -44,3 +44,29 @@ Finish time: _____
 Actual time needed to complete: _____
 
 Photo by George Hiles on Unsplash
+
+
+
+
+
+Number and name of feature: ___Extend your portfolio Feature #1__Add functionality___________
+
+Estimate of time needed to complete: _____
+
+Start time: _____
+
+Finish time: _____
+
+Actual time needed to complete: _____
+
+
+
+Number and name of feature: ___Extend your portfolio Feature #__Responsive web design__________
+
+Estimate of time needed to complete: _____
+
+Start time: _____
+
+Finish time: _____
+
+Actual time needed to complete: _____
