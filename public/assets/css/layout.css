@@ -219,10 +219,7 @@ ul.icons {
       color: #f1f1f1;
       width: 100%;
       padding: 100px;
-
-
       /* background-color: #81918E; */
-      /* background-image: url("../../images/banner.jpg"); */
     }
 
     #main > section.two {
@@ -360,6 +357,7 @@ ul.icons {
 
 #headerToggle {
   display: none;
+
 }
 
 @media screen and (max-width: 960px) {
@@ -590,6 +588,25 @@ ul.icons {
       #main section.cover header {
         padding: 0 1em;
       }
+
+/* Added these lines */
+      /* #nav ul li a {
+        font-size: 0.8em;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+      }
+  
+        #nav ul li a span {
+          padding-right: 2.25em;
+        }
+  
+          #nav ul li a span:before {
+            left: 100%;
+            margin-left: -1.25em;
+            line-height: 2.25em;
+          } */
+/* Added these lines */
+
 
   /* Footer */
 
