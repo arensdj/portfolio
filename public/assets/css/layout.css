@@ -165,6 +165,16 @@ ul.icons {
   margin-left: 375px;
 }
 
+/* Found this at https://css-tricks.com/should-i-use-a-video-as-a-background/ */
+#cover-video {
+  width: 100%;
+  position: absolute;
+  left: 300px;
+  top: -200px;
+  z-index: -100;
+}
+
+
   #main > section {
     margin: 0;
     overflow: hidden;
@@ -204,20 +214,29 @@ ul.icons {
     }
 
     #main > section.one {
-      background-color: #81918E;
-      background-image: url("../../images/banner.jpg");
+
+      background: rgba(0, 0, 0, 0.5);
+      color: #f1f1f1;
+      width: 100%;
+      padding: 100px;
+      /* background-color: #81918E; */
     }
 
     #main > section.two {
-      background-color: #f5fafa;
+      /* background-color: #f5fafa; */
+      background-color: #8fafaf;
     }
 
     #main > section.three {
-      background-color: #ecf1f1;
+      /* background-color: #ecf1f1; */
+      background-color: #a9c0c0;
+
     }
 
     #main > section.four {
-      background-color: #e8edec;
+      /* background-color: #e8edec; */
+      background-color: #8fafaf;
+
     }
 
 /* Wide */
@@ -268,6 +287,7 @@ ul.icons {
 
 /* Narrow */
 
+/* @media screen and (min-width: 768px) and (max-width: 1320px) { */
 @media screen and (min-width: 961px) and (max-width: 1320px) {
 
   /* Basic */
@@ -337,9 +357,12 @@ ul.icons {
 
 #headerToggle {
   display: none;
+
 }
 
 @media screen and (max-width: 960px) {
+  /* @media screen and (max-width: 960px) { */
+
 
   /* Basic */
 
@@ -403,6 +426,7 @@ ul.icons {
 
       #header .top {
         position: relative;
+
       }
 
       #header .bottom {
@@ -564,6 +588,25 @@ ul.icons {
       #main section.cover header {
         padding: 0 1em;
       }
+
+/* Added these lines */
+      /* #nav ul li a {
+        font-size: 0.8em;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+      }
+  
+        #nav ul li a span {
+          padding-right: 2.25em;
+        }
+  
+          #nav ul li a span:before {
+            left: 100%;
+            margin-left: -1.25em;
+            line-height: 2.25em;
+          } */
+/* Added these lines */
+
 
   /* Footer */
 
